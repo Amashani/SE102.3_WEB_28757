@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>nsbm</title>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleq2.css">
+    <body>
+         <center>
+           <table>
+           <form>
+               <tr class="caption">
+                   <td colspan="2">
+                       <center><h1>SignUp</h1></center>
+                   </td>
+               </tr>
+               <tr>
+                   <th>First Name</th>
+                   <td><input type="text" id="first name" name="first name" placeholder="Enter First Name" required></td>
+               </tr>
+               <tr>
+                   <th>Last Name</th>
+                   <td><input type="text" id="last name" name="last name" placeholder="Enter Last Name" required></td>
+               </tr>
+               <tr>
+                   <th>Date Of Birth</th>
+                   <td>
+                       <select date="date">
+                           <option value="0">Date</option>
+                       </select>
+                       <select date="month">
+                           <option value="0">Month</option>
+                       </select>
+                       <select date="year">
+                           <option value="0">Year</option>
+                       </select>
+                   </td>
+               </tr>
+               
+               <tr>
+                <th>Gender</th>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="1">Country 1</option>
+                        <option value="2">Country 2</option>
+                        <option value="3">Country 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type="email" id="email" name="email" placeholder="Enter E-mail"required></td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td><input type="text" id="phone" name="phone" placeholder="Enter phone"required></td>
+            </tr>
+            <tr>
+                <th>Confirm Password</th>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                    <label for="agreeTerms">Agree to the Terms of use</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="buttons" colspan="2">
+                    <button type="submit" style="background-color: greenyellow">Submit</button>
+                    <button type="button" style="background-color: indianred">Cancel</button>
+                </td>
+            </tr>
+           </form>
+           </table>
+           </center>
+    </body>
+</html>
